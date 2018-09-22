@@ -1,0 +1,30 @@
+{
+  "name": "generator-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eric Bower",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "precommit": "lint-staged",
+    "prettier": "prettier --write **/*.{js,ts}"
+  },
+  "files": [
+    "app"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^3.0.0"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
+    "prettier": "^1.14.2",
+    "typescript": "^2.9.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
