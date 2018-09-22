@@ -1,5 +1,5 @@
 {
-  "name": "generator-ts",
+  "name": "@neurosnap/generator-ts",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Eric Bower",
