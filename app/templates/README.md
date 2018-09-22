@@ -4,9 +4,15 @@
 
 * node
 
-## Dev
+## Test
 
 ```bash
 yarn
-make dev
+yarn test
+```
+
+## Build
+
+```bash
+yarn build
 ```

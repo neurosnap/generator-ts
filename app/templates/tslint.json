@@ -3,12 +3,11 @@
     "extends": [
         "tslint-config-airbnb",
         "tslint-no-circular-imports",
-        "tslint-config-package",
         "tslint-config-prettier"
     ],
     "jsRules": {},
     "rules": {
-      "max-line-length": [100, true],
+      "max-line-length": [true, 80],
       "object-shorthand-properties-first": false,
       "function-name": false,
       "import-name": false,
@@ -16,7 +15,6 @@
       "align": [false],
       "variable-name": [false],
       "ter-arrow-parens": [true, "always"],
-      "module-boundary": [true, "<%= namespace %>"]
     },
     "rulesDirectory": []
 }

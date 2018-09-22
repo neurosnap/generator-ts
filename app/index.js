@@ -36,6 +36,7 @@ class App extends Generator {
     };
 
     const files = [
+      '.npmignore',
       '.gitignore',
       'index.ts',
       'index.test.ts',
