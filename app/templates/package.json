@@ -14,7 +14,8 @@
     "build": "tsc",
     "test": "tsc --noEmit && jest",
     "prepublish": "yarn build",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "start": "ts-node index.ts"
   },
   "lint-staged": {
     "*.{js,ts}": [
