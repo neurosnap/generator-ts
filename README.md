@@ -8,7 +8,7 @@ your library scaffolding up and running in one command.
 
 ```bash
 yarn global add yeoman
-yarn global add generator-ts
+yarn global add @neurosnap/generator-ts
 ```
 
 ## Usage
@@ -16,5 +16,5 @@ yarn global add generator-ts
 navigate to your new project directory then execute command
 
 ```bash
-yo ts
+yo @neurosnap/ts
 ```
