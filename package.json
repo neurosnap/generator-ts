@@ -10,7 +10,6 @@
     "url": "git://github.com/neurosnap/generator-ts.git"
   },
   "scripts": {
-    "precommit": "lint-staged",
     "prettier": "prettier --write **/*.{js,ts}"
   },
   "files": [
@@ -30,5 +29,10 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
