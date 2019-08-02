@@ -15,7 +15,7 @@
     "test": "tsc --noEmit && yarn lint && jest",
     "lint": "tslint -p ./tsconfig.json",
     "prepublish": "yarn build",
-    "start": "ts-node index.ts"
+    "start": "ts-node --log-error index.ts"
   },
   "lint-staged": {
     "*.{js,ts}": [
