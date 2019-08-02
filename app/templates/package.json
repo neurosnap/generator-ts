@@ -12,7 +12,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "tsc --noEmit && jest",
+    "test": "tsc --noEmit && yarn lint && jest",
+    "lint": "tslint -p ./tsconfig.json",
     "prepublish": "yarn build",
     "start": "ts-node index.ts"
   },
